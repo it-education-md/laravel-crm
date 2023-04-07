@@ -1,208 +1,112 @@
-Contribution: 2016-05-13 00:00
+<p align="center">
+<a href="http://krayincrm.com"><img src="https://bagisto.com/wp-content/uploads/2021/06/bagisto-logo.png" alt="Total Downloads"></a>
+</p>
 
-Contribution: 2016-05-13 00:01
+<p align="center">
+<a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/license.svg" alt="License"></a>
+</p>
 
-Contribution: 2016-05-13 00:02
+## Topics
 
-Contribution: 2016-05-13 00:03
+1. [Introduction](#introduction)
+2. [Documentation](#documentation)
+3. [Requirements](#requirements)
+4. [Installation & Configuration](#installation-and-configuration)
+5. [License](#license)
+6. [Security Vulnerabilities](#security-vulnerabilities)
 
-Contribution: 2016-05-13 00:04
+### Introduction
 
-Contribution: 2016-06-06 00:00
+[Krayin CRM](https://krayincrm.com) is a hand tailored CRM framework built on some of the hottest opensource technologies
+such as [Laravel](https://laravel.com) (a [PHP](https://secure.php.net/) framework) and [Vue.js](https://vuejs.org)
+a progressive Javascript framework.
 
-Contribution: 2016-06-06 00:01
+**Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.**
 
-Contribution: 2016-06-06 00:02
+**Read our documentation: [Krayin CRM Docs](https://devdocs.krayincrm.com/)**
 
-Contribution: 2016-06-06 00:03
+**We also have a forum for any type of concerns, feature requests, or discussions. Please visit: [Krayin CRM Forums](https://forums.krayincrm.com/)**
 
-Contribution: 2016-06-06 00:04
+# Visit our live [Demo](https://demo.krayincrm.com)
 
-Contribution: 2016-06-06 00:05
+It packs in lots of features that will allow your E-Commerce business to scale in no time:
 
-Contribution: 2016-06-06 00:06
+-   Descriptive and Simple Admin Panel.
+-   Admin Dashboard.
+-   Custom Attributes.
+-   Built on Modular Approach.
+-   Email parsing via Sendgrid.
+-   Check out [these features and more](https://krayincrm.com/features/).
 
-Contribution: 2016-06-10 00:00
+**For Developers**:
+Take advantage of two of the hottest frameworks used in this project -- Laravel and Vue.js -- both of which have been used in Krayin CRM.
 
-Contribution: 2016-06-10 00:01
+### Documentation
 
-Contribution: 2016-06-10 00:02
+#### Krayin Documentation [https://devdocs.krayincrm.com](https://devdocs.krayincrm.com)
 
-Contribution: 2016-06-10 00:03
+### Requirements
 
-Contribution: 2016-06-10 00:04
+-   **SERVER**: Apache 2 or NGINX.
+-   **RAM**: 3 GB or higher.
+-   **PHP**: 7.4 or higher.
+-   **For MySQL users**: 5.7.23 or higher.
+-   **For MariaDB users**: 10.2.7 or Higher.
+-   **Node**: 8.11.3 LTS or higher.
+-   **Composer**: 1.6.5 or higher.
 
-Contribution: 2016-06-10 00:05
+### Installation and Configuration
 
-Contribution: 2016-06-10 00:06
+##### Execute these commands below, in order
 
-Contribution: 2016-06-10 00:07
+```
+composer create-project krayin/laravel-crm
+```
 
-Contribution: 2016-06-13 00:00
+-   Find **.env** file in root directory and change the **APP_URL** param to your **domain**.
 
-Contribution: 2016-06-13 00:01
+-   Also, Configure the **Mail** and **Database** parameters inside **.env** file.
 
-Contribution: 2016-06-13 00:02
+```
+php artisan krayin-crm:install
+```
 
-Contribution: 2016-06-13 00:03
+**To execute Krayin**:
 
-Contribution: 2016-06-13 00:04
+##### On server:
 
-Contribution: 2016-06-13 00:05
+Warning: Before going into production mode we recommend you uninstall developer dependencies.
+In order to do that, run the command below:
 
-Contribution: 2016-06-13 00:06
+> composer install --no-dev
 
-Contribution: 2016-06-13 00:07
+```
+Open the specified entry point in your hosts file in your browser or make an entry in hosts file if not done.
+```
 
-Contribution: 2016-06-15 00:00
+##### On local:
 
-Contribution: 2016-06-15 00:01
+```
+php artisan route:clear
+php artisan serve
+```
 
-Contribution: 2016-06-15 00:02
 
-Contribution: 2016-06-15 00:03
+**How to log in as admin:**
 
-Contribution: 2016-06-15 00:04
+> _http(s)://example.com/admin/login_
 
-Contribution: 2016-06-15 00:05
+```
+email:admin@example.com
+password:admin123
+```
 
-Contribution: 2016-06-17 00:00
+### License
 
-Contribution: 2016-06-17 00:01
+Krayin CRM is a truly opensource CRM framework which will always be free under the [MIT License](https://github.com/krayin/laravel-crm/blob/master/LICENSE).
 
-Contribution: 2016-06-17 00:02
+### Security Vulnerabilities
 
-Contribution: 2016-06-17 00:03
-
-Contribution: 2016-06-17 00:04
-
-Contribution: 2016-06-21 00:00
-
-Contribution: 2016-06-21 00:01
-
-Contribution: 2016-06-21 00:02
-
-Contribution: 2016-06-21 00:03
-
-Contribution: 2016-06-21 00:04
-
-Contribution: 2016-06-21 00:05
-
-Contribution: 2016-06-21 00:06
-
-Contribution: 2016-06-21 00:07
-
-Contribution: 2016-06-22 00:00
-
-Contribution: 2016-06-22 00:01
-
-Contribution: 2016-07-11 00:00
-
-Contribution: 2016-07-14 00:00
-
-Contribution: 2016-07-14 00:01
-
-Contribution: 2016-07-14 00:02
-
-Contribution: 2016-07-14 00:03
-
-Contribution: 2016-07-14 00:04
-
-Contribution: 2016-07-14 00:05
-
-Contribution: 2016-07-19 00:00
-
-Contribution: 2016-07-19 00:01
-
-Contribution: 2016-07-19 00:02
-
-Contribution: 2016-07-19 00:03
-
-Contribution: 2016-07-19 00:04
-
-Contribution: 2016-07-22 00:00
-
-Contribution: 2016-07-22 00:01
-
-Contribution: 2016-07-22 00:02
-
-Contribution: 2016-07-22 00:03
-
-Contribution: 2016-07-22 00:04
-
-Contribution: 2016-07-22 00:05
-
-Contribution: 2016-07-22 00:06
-
-Contribution: 2016-07-22 00:07
-
-Contribution: 2016-07-25 00:00
-
-Contribution: 2016-07-25 00:01
-
-Contribution: 2016-07-25 00:02
-
-Contribution: 2016-07-25 00:03
-
-Contribution: 2016-07-25 00:04
-
-Contribution: 2016-07-25 00:05
-
-Contribution: 2016-07-25 00:06
-
-Contribution: 2016-07-26 00:00
-
-Contribution: 2016-07-26 00:01
-
-Contribution: 2016-07-26 00:02
-
-Contribution: 2016-07-26 00:03
-
-Contribution: 2016-07-27 00:00
-
-Contribution: 2016-07-27 00:01
-
-Contribution: 2016-07-27 00:02
-
-Contribution: 2016-07-27 00:03
-
-Contribution: 2016-07-27 00:04
-
-Contribution: 2016-07-27 00:05
-
-Contribution: 2016-07-27 00:06
-
-Contribution: 2016-07-27 00:07
-
-Contribution: 2016-07-27 00:08
-
-Contribution: 2016-07-27 00:09
-
-Contribution: 2016-08-04 00:00
-
-Contribution: 2016-08-04 00:01
-
-Contribution: 2016-08-04 00:02
-
-Contribution: 2016-08-04 00:03
-
-Contribution: 2016-08-04 00:04
-
-Contribution: 2016-08-04 00:05
-
-Contribution: 2016-08-04 00:06
-
-Contribution: 2016-08-04 00:07
-
-Contribution: 2016-08-04 00:08
-
-Contribution: 2016-08-10 00:00
-
-Contribution: 2016-08-10 00:01
-
-Contribution: 2016-08-10 00:02
-
-Contribution: 2016-08-10 00:03
-
-Contribution: 2016-08-10 00:04
-
+Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in Krayin CRM then please email us: mailto:sales@krayincrm.com.
